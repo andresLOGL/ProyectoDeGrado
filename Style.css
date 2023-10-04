@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 180, 52);
+}
+.logo{
+    height: 125px;
+    width: 150px;
+    padding: 7px;
+}
+.Menu{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    gap: 15px;
+    text-decoration: none;
+}
+ul li{
+    display: flex;
+    padding: 0px 20px;
+}
+.labor{
+    margin-top: 20px;
+}
+.labor2{
+    margin-top: 20px
+}
+main{
+    background-color: rgb(47, 63, 133);
+    display: flex;
+    justify-content: space-between;
+}
+.visualizacion_previa{
+    background-color: #ffff;
+    height: 250px;
+    width: 150px;
+    padding: 5px;
+}
