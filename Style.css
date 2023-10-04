@@ -5,10 +5,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(231, 180, 52);
+    background: linear-gradient(rgb(230, 180, 52), rgb(247, 230, 187));
+    height: 105px;
+    
 }
 .logo{
-    height: 125px;
+    height: 136px;
     width: 150px;
     padding: 7px;
 }
@@ -17,7 +19,6 @@ nav{
     list-style: none;
     font-size: 30px;
     font-weight: bold;
-    gap: 15px;
     text-decoration: none;
 }
 ul li{
@@ -25,19 +26,20 @@ ul li{
     padding: 0px 20px;
 }
 .labor{
-    margin-top: 20px;
+    padding: 10px;
 }
 .labor2{
-    margin-top: 20px
+    padding: 10px;
 }
 main{
-    background-color: rgb(47, 63, 133);
+    background-color: rgb(247, 230, 187);
+    height: 820px;
     display: flex;
-    justify-content: space-between;
 }
-.visualizacion_previa{
-    background-color: #ffff;
-    height: 250px;
-    width: 150px;
-    padding: 5px;
+footer{
+    background-color: rgb(247, 230, 187);
+}
+.derechosAutor{
+    line-height: 20px;
+    color: #999;
 }
